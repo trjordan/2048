@@ -1,5 +1,6 @@
 function KeyboardInputManager() {
   this.events = {};
+  __kb = this;
 
   if (window.navigator.msPointerEnabled) {
     //Internet Explorer 10 style
