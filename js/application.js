@@ -29,7 +29,7 @@ window.requestAnimationFrame(function () {
       __kb.emit('move', Math.floor(Math.random()*4)); 
       console.log('I dunno, man');
     }
-    window.setTimeout(runMove, 250);
+    window.setTimeout(runMove, 750);
   }
 
   function simpleBoard() {
